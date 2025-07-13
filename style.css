@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff;
+}
+header {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+.about {
+  text-align: center;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+h2 {
+  color: #4b0082;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.skill-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.skill-box img {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
+.recommendation {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #4b0082;
+  margin-bottom: 1rem;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #4b0082;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background: #4b0082;
+}

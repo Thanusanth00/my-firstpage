@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Jane Doe</h1>
+      <small>jane.doe@email.com | @janedoe</small>
+    </div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about" class="about">
+      <img src="https://i.imgur.com/qIufhof.png" alt="Jane Doe Avatar" class="profile-img">
+      <h2>Hi, I'm Jane Doe! 👋</h2>
+      <p>I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment Analyzer to name a few.</p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Icon">
+          <div>HTML<br/><small>2 years</small></div>
+        </div>
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Icon">
+          <div>JavaScript<br/><small>1.5 years</small></div>
+        </div>
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java Icon">
+          <div>Java<br/><small>2 years</small></div>
+        </div>
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="React Icon">
+          <div>React<br/><small>1 year</small></div>
+        </div>
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Node.js Icon">
+          <div>Node.js<br/><small>1 year</small></div>
+        </div>
+        <div class="skill-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon">
+          <div>CSS<br/><small>2 years</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <p><strong>Chatbot:</strong> Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant.</p>
+      <p><strong>Sentiment Analyzer:</strong> Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</p>
+      <p><strong>Fashion Website:</strong> Created a styled multi-page website for a fashion brand integrated with a shopping cart using Stripe.</p>
+    </section>
+
+    <section id="recommendations" class="recommendations">
+      <h2>Recommendations</h2>
+      <div class="recommendation">"Jane is a very quick learner and quickly grasps key concepts of Web development. She got a great attitude and she is an excellent team player."</div>
+      <div class="recommendation">"Working with Jane has been an awesome experience. She is highly knowledgeable and goes the extra mile to make sure the project is completed on time."</div>
+      <div class="recommendation">"I had worked along with Jane during the initial phase of our venture and was always amazed at her level of commitment and dedication."</div>
+    </section>
+
+    <section class="form-section">
+      <h2>Leave a Recommendation</h2>
+      <form id="recForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <textarea id="message" rows="4" placeholder="Your Recommendation" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Jane Doe | Portfolio Website
+  </footer>
+
+  <script src="style.js"></script>
+</body>
+</html>
